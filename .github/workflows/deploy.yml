@@ -4,7 +4,7 @@ on:
     workflow_dispatch:
     push:
         branches:
-            - main
+            - master
 
 permissions:
     contents: read
@@ -28,8 +28,9 @@ jobs:
             - name: Setup Pages
               uses: actions/configure-pages@v1
 
-            - name: Install pnpm
-              run: npm i -g pnpm
+            - uses: pnpm/action-setup@v2
+              with:
+                version: latest
 
             - name: Install Hexo
               run: pnpm i && pnpm i -g hexo-cli && hexo deploy -g
