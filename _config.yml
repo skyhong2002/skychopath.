@@ -6,20 +6,20 @@
 title: Skychopath.
 subtitle: 寫下值得紀錄的東西 | 和一些奇怪ㄉ東東
 description: 'A psychopath felling from the sky.'
-avatar:  /skychopath.png
-favicon:
+avatar: logo.png
+favicon: logo.png
 keywords: skyhong2002, skyhong.tw, skychopath
 author: Sky Hong
 language: 
-  - zh-TW
   - en
+  - zh-TW
 timezone: 'Asia/Taipei'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://skyhong2002.github.io/
 permalink: :title-:hash/ # :year/:month/:day/:title/
-permalink_defaults:
+permalink_defaults: :title
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
@@ -122,22 +122,21 @@ feed:
 # npm i hexo-related-popular-posts
 
 # npm i hexo-neat
-neat_enable: true
+# neat_enable: true
 
 # npm i hexo-all-minifier
-all_minifier: true
+# all_minifier: true
 
 
-lazyload:
-  enable: false
-  onlypost: true
-  loadingImg: /images/loading.svg
-
+# lazyload:
+#   enable: false
+#   onlypost: true
+#   loadingImg: /images/loading.svg
 
 # https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap
-sitemap:
-  path: sitemap.xml
-  tag: false
-  category: false
-  page_priority: 0.4
-  post_priority: 0.6
+# sitemap:
+#   path: sitemap.xml
+#   tag: false
+#   category: false
+#   page_priority: 0.4
+#   post_priority: 0.6

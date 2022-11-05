@@ -1,10 +1,13 @@
 welcome:
   layout: markdown
-  title: 'Wow! U found this website! Cool!'
+  title: 'Wow!'
   content: |
-    But sadly this site has nothing cuz I am too busy doing my homework.
+    U found this website! Cool!
     
-    If you see this, reach me via <a href="https://twitter.com/skyhong2002">Twitter</a> or Email me (<a href="me@skyhong.tw">me@skyhong.tw</a>) to remind me plz
+    But sadly this site has nothing cuz I am too busy doing fun things.
+
+    If you see this, reach me via <a href="https://twitter.com/skyhong2002">Twitter</a> or Email me (<a href="me@skyhong.tw">me@skyhong.tw</a>) to remind me to keep update plz
+    
     Be cool and be safe.
 recent:
   layout: recent

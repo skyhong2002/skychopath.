@@ -29,19 +29,19 @@ toc:
   fallback: recent # Use a backup widget when toc does not exist.
 
 footer:
-  social:
-    github:
-      icon: '<img src=“https://api.iconify.design/icon-park/github.svg”/>'
-      url: https://github.com/skyhong2002/
-    music:
-      icon: '<img src=“https://api.iconify.design/ri:netease-cloud-music-line.svg”/>'
-      url: https://stats.fm/skyhong2002/
-    comments:
-      icon: '<img src=“https://api.iconify.design/bx/comment-detail.svg”/>'
-      url: https://github.com/skyhong2002/skyhon2002.github.io/issues
-    email:
-      icon: '<img src=“https://api.iconify.design/clarity/email-outline-badged.svg”/>'
-      url: 'blog@skyhong.tw'
+  # social:
+  #   github:
+  #     icon: '<img src=“https://api.iconify.design/icon-park/github.svg”/>'
+  #     url: https://github.com/skyhong2002/
+  #   music:
+  #     icon: '<img src=“https://api.iconify.design/ri:netease-cloud-music-line.svg”/>'
+  #     url: https://stats.fm/skyhong2002/
+  #   comments:
+  #     icon: '<img src=“https://api.iconify.design/bx/comment-detail.svg”/>'
+  #     url: https://github.com/skyhong2002/skyhon2002.github.io/issues
+  #   email:
+  #     icon: '<img src=“https://api.iconify.design/clarity/email-outline-badged.svg”/>'
+  #     url: 'blog@skyhong.tw'
   sitemap:
     'blog': 
       - '[recent](/)'
@@ -55,6 +55,7 @@ footer:
       - '[comments](/about/#comments)'
     'More': 
       - '[GitHub](https://github.com/skyhong2002/)'
-  content: | #支援 Markdown 格式
+      
+  content: |
     This website is built using Hexo and [Stellar](https://github.com/xaoxuu/hexo-theme-stellar) theme.
     All the content in this blog is authorized by [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).

@@ -1,7 +1,13 @@
 ---
 title: About me
 sidebar: [welcome, toc]
+# banner: /logo.png
+
 ---
+
+Who I am
+
+<!-- more -->
 
 <h1 align="center">Sky Hong 洪軾凱</h1>
 
