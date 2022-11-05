@@ -3,18 +3,22 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: Skychopath.
+subtitle: 寫下值得紀錄的東西 | 和一些奇怪ㄉ東東
+description: 'A psychopath felling from the sky.'
+avatar:  /skychopath.png
+favicon:
+keywords: skyhong2002, skyhong.tw, skychopath
+author: Sky Hong
+language: 
+  - zh-TW
+  - en
+timezone: 'Asia/Taipei'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: https://skyhong2002.github.io/
+permalink: :title-:hash/ # :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -33,28 +37,28 @@ skip_render:
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
-titlecase: false # Transform title into titlecase
+titlecase: true # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: '    '
   wrap: true
   hljs: false
 prismjs:
   enable: false
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: '    '
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -103,3 +107,37 @@ theme: stellar
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+
+########################### Plugins ###########################
+# npm i hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: false
+  content: true
+  # icon: skychopath.png
+  autodiscovery: true
+
+# npm i hexo-related-popular-posts
+
+# npm i hexo-neat
+neat_enable: true
+
+# npm i hexo-all-minifier
+all_minifier: true
+
+
+lazyload:
+  enable: false
+  onlypost: true
+  loadingImg: /images/loading.svg
+
+
+# https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap
+sitemap:
+  path: sitemap.xml
+  tag: false
+  category: false
+  page_priority: 0.4
+  post_priority: 0.6

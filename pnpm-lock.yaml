@@ -5,6 +5,7 @@ specifiers:
   hexo-cli: ^4.3.0
   hexo-generator-archive: ^2.0.0
   hexo-generator-category: ^2.0.0
+  hexo-generator-feed: ^3.0.0
   hexo-generator-index: ^3.0.0
   hexo-generator-tag: ^2.0.0
   hexo-renderer-ejs: ^2.0.0
@@ -17,6 +18,7 @@ specifiers:
 dependencies:
   hexo-generator-archive: 2.0.0
   hexo-generator-category: 2.0.0
+  hexo-generator-feed: 3.0.0
   hexo-generator-index: 3.0.0
   hexo-generator-tag: 2.0.0
   hexo-renderer-ejs: 2.0.0
@@ -39,7 +41,6 @@ packages:
 
   /a-sync-waterfall/1.0.1:
     resolution: {integrity: sha512-RYTOHHdWipFUliRFMCS4X2Yn2X8M87V/OpSqWzKKOGhzqyUxzyVmhHDH9sAvG+ZuQf/TAOFsLCpMw09I1ufUnA==}
-    dev: true
 
   /abab/2.0.6:
     resolution: {integrity: sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==}
@@ -113,7 +114,6 @@ packages:
 
   /asap/2.0.6:
     resolution: {integrity: sha512-BSHWgDSAiKs50o2Re8ppvp3seVHXSRM44cdSsT9FfNEUUZLOGWVCsiWaRPWM1Znn+mqZ1OfVZ3z3DWEzSp7hRA==}
-    dev: true
 
   /async/3.2.4:
     resolution: {integrity: sha512-iAB+JbDEGXhyIUavoDl9WP/Jj106Kz9DEn1DPgYw5ruDn0e3Wgi3sKFm55sASdGBNOQB8F59d9qQ7deqrHA8wQ==}
@@ -224,7 +224,6 @@ packages:
   /commander/5.1.0:
     resolution: {integrity: sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==}
     engines: {node: '>= 6'}
-    dev: true
 
   /compressible/2.0.18:
     resolution: {integrity: sha512-AF3r7P5dWxL8MxyITRMlORQNaOA2IkAFaTr4k7BUumjPtRpGDTZpl0Pb1XCO6JeDCBdp126Cgs9sMxqSjgYyRg==}
@@ -619,6 +618,16 @@ packages:
     engines: {node: '>=14'}
     dependencies:
       hexo-pagination: 3.0.0
+    dev: false
+
+  /hexo-generator-feed/3.0.0:
+    resolution: {integrity: sha512-Jo35VSRSNeMitS2JmjCq3OHAXXYU4+JIODujHtubdG/NRj2++b3Tgyz9pwTmROx6Yxr2php/hC8og5AGZHh8UQ==}
+    engines: {node: '>=10.13.0'}
+    dependencies:
+      hexo-util: 2.7.0
+      nunjucks: 3.2.3
+    transitivePeerDependencies:
+      - chokidar
     dev: false
 
   /hexo-generator-index/3.0.0:
@@ -1126,7 +1135,6 @@ packages:
       a-sync-waterfall: 1.0.1
       asap: 2.0.6
       commander: 5.1.0
-    dev: true
 
   /nwsapi/2.2.2:
     resolution: {integrity: sha512-90yv+6538zuvUMnN+zCr8LuV6bPFdq50304114vJYJ8RDyK8D5O9Phpbd6SZWgI7PwzmmfN1upeOJlvybDSgCw==}

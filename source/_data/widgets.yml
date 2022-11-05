@@ -1,0 +1,43 @@
+welcome:
+  layout: markdown
+  title: 'Wow! U found this website! Cool!'
+  content: |
+    But sadly this site has nothing cuz I am too busy doing my homework.
+    
+    If you see this, reach me via <a href="https://twitter.com/skyhong2002">Twitter</a> or Email me (<a href="me@skyhong.tw">me@skyhong.tw</a>) to remind me plz
+    Be cool and be safe.
+recent:
+  layout: recent
+  rss: /atom.xml
+  limit: 5
+
+
+toc:
+  layout: toc
+  list_number: false # 是否显示序号
+  min_depth: 2
+  max_depth: 5
+  fallback: recent
+
+
+tagcloud:
+  layout: tagcloud
+  title: 關鍵詞文字雲
+  min_font: 12
+  max_font: 24
+  amount: 100
+  orderby: name
+  order: 1 # -1
+  color: true # use color
+  start_color: red 
+  end_color: purple # '#b700ff', rgba(183, 0, 255, 1)
+  show_count: true 
+
+ghrepo:
+  layout: ghrepo
+
+related:
+  layout: related
+
+timeline:
+  layout: timeline
