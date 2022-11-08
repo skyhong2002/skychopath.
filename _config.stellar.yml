@@ -1,3 +1,56 @@
+######## Article ########
+# Articles
+article:
+  auto_cover: false # search from https://source.unsplash.com/
+  # 如果没有指定横幅，是否根据 tags 作为关键词搜索横幅图片？
+  auto_banner: false # search from https://source.unsplash.com/
+  # 如果没有指定 excerpt 和 description，将自动取多长的内容作为文章摘要？
+  auto_excerpt: 200
+  # 分类颜色
+  # category_color:
+  #   '新闻稿': '#DA0F47'
+  # license
+  license: # 'This website is authorized by [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).'
+  # 分享
+  share: # [wechat, weibo, email, link]
+  # 相关文章，需要安装插件 (for layout: post)
+  # npm i hexo-related-popular-posts
+  related_posts:
+    enable: false
+    max_count: 5
+
+######## Style ########
+style:
+  darkmode: auto # auto / always / false
+  smooth_scroll: true # true / false
+  font-size: 16px
+  font-family:
+    logo: 'system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+    body: 'system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+    code: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
+  color:
+    common:
+      theme: '#0042b4'
+      accent: '#FAFA00'
+      link: '#DADA40'
+      button: '#1BCDFC'
+      hover: '#FAFA00'
+    light:
+      background: '#f8f8f8'
+      block: '#f2f2f2'
+      card: white 
+      title: '#000'
+      text: '#333'
+      code: '#FAFA00'
+    dark:
+      background: '#000736' # 001483
+      background-mobile: black
+      block: '#0020B3'
+      card: '#001483'
+      title: '#fff'
+      text: '#fff'
+      code: '#DADA00'
+
 open_graph:
   enable: true
   twitter_id: skyhong2002
@@ -31,19 +84,19 @@ toc:
   fallback: recent # Use a backup widget when toc does not exist.
 
 footer:
-  # social:
-  #   github:
-  #     icon: '<img src=“https://api.iconify.design/icon-park/github.svg”/>'
-  #     url: https://github.com/skyhong2002/
-  #   music:
-  #     icon: '<img src=“https://api.iconify.design/ri:netease-cloud-music-line.svg”/>'
-  #     url: https://stats.fm/skyhong2002/
-  #   comments:
-  #     icon: '<img src=“https://api.iconify.design/bx/comment-detail.svg”/>'
-  #     url: https://github.com/skyhong2002/skyhon2002.github.io/issues
-  #   email:
-  #     icon: '<img src=“https://api.iconify.design/clarity/email-outline-badged.svg”/>'
-  #     url: 'blog@skyhong.tw'
+  social:
+    github:
+      icon: '<img src="https://api.iconify.design/icon-park/github.svg"/>'
+      url: https://github.com/skyhong2002/
+    music:
+      icon: '<img src="https://api.iconify.design/ri:netease-cloud-music-line.svg"/>'
+      url: https://stats.fm/skyhong2002/
+    comments:
+      icon: '<img src="https://api.iconify.design/bx/comment-detail.svg"/>'
+      url: https://github.com/skyhong2002/skyhon2002.github.io/issues
+    email:
+      icon: '<img src="https://api.iconify.design/clarity/email-outline-badged.svg"/>'
+      url: 'blog@skyhong.tw'
   sitemap:
     'blog': 
       - '[recent](/)'
@@ -57,29 +110,9 @@ footer:
       - '[comments](/about/#comments)'
     'More': 
       - '[GitHub](https://github.com/skyhong2002/)'
-      
+
   content: |
     This website is built using Hexo and [Stellar](https://github.com/xaoxuu/hexo-theme-stellar) theme.
     All the content in this blog is authorized by [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 
-######## Article ########
-# Articles
-article:
-  auto_cover: false # search from https://source.unsplash.com/
-  # 如果没有指定横幅，是否根据 tags 作为关键词搜索横幅图片？
-  auto_banner: false # search from https://source.unsplash.com/
-  # 如果没有指定 excerpt 和 description，将自动取多长的内容作为文章摘要？
-  auto_excerpt: 200
-  # 分类颜色
-  # category_color:
-  #   '新闻稿': '#DA0F47'
-  # license
-  license: # 'This website is authorized by [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).'
-  # 分享
-  share: # [wechat, weibo, email, link]
-  # 相关文章，需要安装插件 (for layout: post)
-  # npm i hexo-related-popular-posts
-  related_posts:
-    enable: false
-    max_count: 5

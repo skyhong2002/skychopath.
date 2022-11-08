@@ -117,7 +117,7 @@ feed:
   path: atom.xml
   limit: false
   content: true
-  # icon: skychopath.png
+  icon: /logo.png
   autodiscovery: true
 
 # npm i hexo-related-popular-posts

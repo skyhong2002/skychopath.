@@ -9,6 +9,8 @@ banner: /logo.png
 
 <h1 align="center">Sky Hong 洪軾凱</h1>
 
+![Hi its my picture](/logo.png)
+
 <p style="text-align: center; white-space: pre;">
 於21世紀初自天空降落，  
 患有先天性反社會人格障礙精神病，  
