@@ -5,9 +5,9 @@
 # Site
 title: Skychopath.
 subtitle: 寫下值得紀錄的東西 | 和一些奇怪ㄉ東東
-description: 'A psychopath felling from the sky.'
-avatar: logo.png
-favicon: logo.png
+description: A psychopath felling from the sky.
+avatar: /logo.png
+favicon: /logo.png
 keywords: skyhong2002, skyhong.tw, skychopath
 author: Sky Hong
 language: 
@@ -97,6 +97,7 @@ pagination_dir: page
 include:
 exclude:
 ignore:
+
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
