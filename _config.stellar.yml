@@ -8,9 +8,10 @@ sidebar:
     title: '[config.title](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
   menu:
     post: '[Blog](/)'
+    about: '[about](/about/)'
     # wiki: '[btn.wiki](/wiki/)'
     # notes: '[Notes](/notes/)'
-    more: '[more](https://skyhong2002.medium.com)'
+    # more: '[more](/)'
   widgets:
     index: [welcome, recent, timeline] # for home/wiki/categories/tags/archives/404 pages
     page: [welcome, toc] # for pages using 'layout:page'
@@ -71,10 +72,10 @@ article:
   # 如果没有指定 excerpt 和 description，将自动取多长的内容作为文章摘要？
   auto_excerpt: 200
   # 分类颜色
-  category_color:
-    '新闻稿': '#DA0F47'
-  # 文章许可协议
-  license: 'This website is authorized by [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).'
+  # category_color:
+  #   '新闻稿': '#DA0F47'
+  # license
+  license: # 'This website is authorized by [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).'
   # 分享
   share: # [wechat, weibo, email, link]
   # 相关文章，需要安装插件 (for layout: post)

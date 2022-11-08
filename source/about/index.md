@@ -1,19 +1,13 @@
 ---
-title: About me
+title: About
 sidebar: [welcome, toc]
-# banner: /logo.png
+banner: /logo.png
 
 ---
-
-Who I am
 
 <!-- more -->
 
 <h1 align="center">Sky Hong 洪軾凱</h1>
-
-<div align="center">
-
-![](https://komarev.com/ghpvc/?username=skyhong2002&style=flat-square)
 
 <p style="text-align: center; white-space: pre;">
 於21世紀初自天空降落，  
@@ -24,8 +18,6 @@ Who I am
 簡單來說就是個獨流的毒瘤。
 (translate: just some stupid words)
 </p>
-
-</div>
 
 ## `> whoami`
 
