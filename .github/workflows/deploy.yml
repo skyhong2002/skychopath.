@@ -33,7 +33,10 @@ jobs:
                 version: latest
 
             - name: Install Hexo
-              run: pnpm i && pnpm i -g hexo-cli && hexo deploy -g
+              run: pnpm i && pnpm i -g hexo-cli
+              
+            - name: Clean and Deploy
+              run: hexo clean && hexo deploy -g
 
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v1
