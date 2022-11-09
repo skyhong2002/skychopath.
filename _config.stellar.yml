@@ -44,7 +44,7 @@ style:
       code: '#FAFA00'
     dark:
       background: '#000736' # 001483
-      background-mobile: black
+      background-mobile: '#000736' #black
       block: '#0020B3'
       card: '#001483'
       title: '#fff'
