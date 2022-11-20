@@ -62,6 +62,7 @@ sidebar:
   menu:
     post: '[Blog](/)'
     about: '[about](/about/)'
+    timeline: '[timeline](/timeline/)'
     # wiki: '[btn.wiki](/wiki/)'
     # notes: '[Notes](/notes/)'
     # more: '[more](/)'
