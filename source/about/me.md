@@ -1,8 +1,8 @@
 ---
-title: About
+title: About me
+date: 2024-09-16 11:23:51
 sidebar: [welcome, toc]
 banner: /logo.png
-
 ---
 
 <!-- more -->

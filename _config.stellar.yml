@@ -62,10 +62,6 @@ sidebar:
   menu:
     post: '[Blog](/)'
     about: '[about](/about/)'
-    timeline: '[timeline](/timeline/)'
-    # wiki: '[btn.wiki](/wiki/)'
-    # notes: '[Notes](/notes/)'
-    # more: '[more](/)'
   widgets:
     index: [welcome, recent, timeline] # for home/wiki/categories/tags/archives/404 pages
     page: [welcome, toc] # for pages using 'layout:page'
@@ -82,7 +78,7 @@ toc:
   list_number: false #
   min_depth: 2
   max_depth: 5
-  fallback: recent # Use a backup widget when toc does not exist.
+  fallback: recent
 
 footer:
   social:
@@ -92,12 +88,12 @@ footer:
     music:
       icon: '<img src="https://api.iconify.design/ri:netease-cloud-music-line.svg"/>'
       url: https://stats.fm/skyhong2002/
-    comments:
-      icon: '<img src="https://api.iconify.design/bx/comment-detail.svg"/>'
-      url: https://github.com/skyhong2002/skyhon2002.github.io/issues
+    # comments:
+    #   icon: '<img src="https://api.iconify.design/bx/comment-detail.svg"/>'
+    #   url: https://github.com/skyhong2002/Skychopath./issues
     email:
       icon: '<img src="https://api.iconify.design/clarity/email-outline-badged.svg"/>'
-      url: 'blog@skyhong.tw'
+      url: 'mailto:blog@skyhong.tw?subject=%5BSkychopath.%5D&body=Hi%20Sky%2C'
   sitemap:
     'blog': 
       - '[recent](/)'

@@ -2,13 +2,7 @@ welcome:
   layout: markdown
   title: 'Wow!'
   content: |
-    U found this website! Cool!
-    
-    But sadly this site has nothing cuz I am too busy doing fun things.
-
-    If you see this, reach me via <a href="https://twitter.com/skyhong2002">Twitter</a> or Email me (<a href="me@skyhong.tw">me@skyhong.tw</a>) to remind me to keep update plz
-    
-    Be cool and be safe.
+    I make things
 recent:
   layout: recent
   rss: /atom.xml
@@ -17,7 +11,7 @@ recent:
 
 toc:
   layout: toc
-  list_number: false # 是否显示序号
+  list_number: false
   min_depth: 2
   max_depth: 5
   fallback: recent
