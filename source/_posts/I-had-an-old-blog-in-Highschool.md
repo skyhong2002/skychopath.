@@ -1,8 +1,8 @@
 ---
 layout: skychopatics
 title: I had an blog for my Highschool life.
-date: 2024-09-16 13:07:06
-tags:
+date: 2019-12-29 13:07:06
+tags: 
 ---
 
 > I had an old blog in Highschool, it was a blogspot blog. I wrote some random stuffs, mostly about my life, my thoughts, and some emo things.
@@ -11,7 +11,6 @@ tags:
 
 在我六年級開始因為發現有些人都在寫日記的習慣，但是我沒有在寫這種東西，但是又不想要只給自己看，所以開始把自己的想法寫在FB上，雖然說每天po文這種事只有可能在寒暑假才有辦法辦到，但是每過一段時間，就會用文字把最近遇到比較重要、想要記錄下來的事寫下來。
 
-  
 我在2017年八月建立了這個部落格，一開始名為「SkyWalker的天馬行空」，而在 2018年 三月考上師大附中科學班後寫了一篇關於如何準備科學班的文章後，這個部落格才真正開始有流量，也在年終將部落格名稱更改為「Skychopatic」。不過自此之後因為學校和社團的忙碌，導致這裡更新次數非常低，故在這裡決定停止更新部落格。  
   
 這裡要非常感謝水果武士拼盤G的部落格「[Sheracaolity](http://scyablog.blogspot.com/)」，從看到他的文章後我才決定也要嘗試自己寫部落格，也有幸可以考上科學班。雖然我也是蠻三分鐘熱度，到最後也沒有繼續寫下去。但在這過程中也讓我學習到很多東西，除了多觀察世界並理出自己的想法外，也讓我意識到能寫出讓人容易讀懂的文章是如此重要。謝謝你。  
